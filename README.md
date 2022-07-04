@@ -56,8 +56,8 @@ Make sure you run the commands in the above order. The contract types get genera
 
 #### 🥅 Goals
 
-- [ ] Can you check the `balanceOf()` your frontend address in the **YourToken** of the `Debug Contracts` tab?
-- [ ] Can you `transfer()` your token to another account and check _that_ account's `balanceOf`?
+- [x] Can you check the `balanceOf()` your frontend address in the **YourToken** of the `Debug Contracts` tab?
+- [x] Can you `transfer()` your token to another account and check _that_ account's `balanceOf`?
 
 (Use an incognito window to create a new address and try sending to that new address. Use the `transfer()` function in the `Debug Contracts` tab.)
 
@@ -68,8 +68,8 @@ Make sure you run the commands in the above order. The contract types get genera
 
 #### 🥅 Goals
 
-- [ ] Does the `Vendor` address start with a `balanceOf` **1000** in `YourToken` on the `Debug Contracts` tab?
-- [ ] Can you buy **10** tokens for **0.1** ETH?
+- [x] Does the `Vendor` address start with a `balanceOf` **1000** in `YourToken` on the `Debug Contracts` tab?
+- [x] Can you buy **10** tokens for **0.1** ETH?
 - [ ] Can you transfer tokens to a different account?
 - [ ] Can the `owner` withdraw the ETH from the `Vendor`?
 
