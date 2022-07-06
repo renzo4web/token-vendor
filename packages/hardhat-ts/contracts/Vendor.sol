@@ -27,6 +27,16 @@ contract Vendor is Ownable {
 
 
   // ToDo: create a withdraw() function that lets the owner withdraw ETH
+    function withdraw() public payable onlyOwner {
+        payable(msg.sender).transfer((address(this)).balance);
+    }
 
   // ToDo: create a sellTokens() function:
+    function sellTokens() payable public {
+        // check contract balance have liquidity to swap
+        uint256 amountOfToken = msg.value;
+        uint256 amountOfTokens = amountOfToken / tokensPerEth;
+
+        seeAdToken.transfer(msg.sender, amountOfTokens );
+    }
 }
